@@ -2048,3 +2048,7 @@ pre {
   content: "\f0c1";
   font-family: FontAwesome;
   display: inline-block; }
+
+.navbar-right{
+    margin-right: 0;
+}
