@@ -12,7 +12,8 @@
     '_static/js/jquery-1.11.0.min.js',
     '_static/js/jquery-fix.js',
     '_static/bootstrap/js/bootstrap.min.js',
-    '_static/bootstrap-sphinx.js'
+    '_static/bootstrap-sphinx.js',
+    '_static/js/side-menu.js',
   ]
 %}
 
@@ -31,9 +32,9 @@
 
   <div class="row">
     <div class="xs-hidden col-sm-3 col-md-2 sidebar">
-      <div class="collapse navbar-collapse nav-collapse">
-           {% block menu %}
-          {% set toctree = toctree(maxdepth=2, collapse=true, includehidden=True) %}
+      <div class="collapse navbar-collapse nav-collapse toc-menu">
+        {% block menu %}
+          {% set toctree = toctree(maxdepth=3, collapse=true, includehidden=True) %}
           {% if toctree %}
               {{ toctree }}
           {% else %}
@@ -97,4 +98,11 @@
 </script>
 <noscript><p><img src="//www.catalyst-analytics.nz/piwik.php?idsite=81" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
+
+<script type="text/javascript">
+    jQuery(function () {
+        SphinxRtdTheme.Navigation.enableSticky();
+    });
+</script>
+
 {%- endblock %}
