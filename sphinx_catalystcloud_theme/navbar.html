@@ -14,13 +14,13 @@
 
     <span class="navbar-text navbar-version pull-left"></span>
   </div>
-  <div class="collapse navbar-collapse nav-collapse wy-menu wy-menu-vertical">
+  <div class="collapse navbar-collapse nav-collapse">
     {% block navbarsearch %}
       {% include "navbarsearchbox.html" %}
     {% endblock %}
     <div class="mobile-nav visible-xs">
        {% block menu %}
-        {% set toctree = toctree(maxdepth=4, collapse=False, includehidden=True) %}
+        {% set toctree = toctree(maxdepth=2, collapse=True, includehidden=True) %}
         {% if toctree %}
             {{ toctree }}
         {% else %}

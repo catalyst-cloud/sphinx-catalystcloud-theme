@@ -31,10 +31,10 @@
 <div class="container-fluid">
 
   <div class="row">
-    <div class="xs-hidden col-sm-3 col-md-2 sidebar">
-      <div class="collapse navbar-collapse nav-collapse toc-menu">
+    <div class="hidden-xs col-sm-3 col-md-2 sidebar">
+      <div class="toc-menu">
         {% block menu %}
-          {% set toctree = toctree(maxdepth=3, collapse=true, includehidden=True) %}
+          {% set toctree = toctree(maxdepth=4, collapse=true, includehidden=True) %}
           {% if toctree %}
               {{ toctree }}
           {% else %}
