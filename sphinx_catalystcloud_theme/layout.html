@@ -12,7 +12,8 @@
     '_static/js/jquery-1.11.0.min.js',
     '_static/js/jquery-fix.js',
     '_static/bootstrap/js/bootstrap.min.js',
-    '_static/bootstrap-sphinx.js'
+    '_static/bootstrap-sphinx.js',
+    '_static/js/side-menu.js',
   ]
 %}
 
@@ -30,10 +31,10 @@
 <div class="container-fluid">
 
   <div class="row">
-    <div class="xs-hidden col-sm-3 col-md-2 sidebar">
-      <div class="collapse navbar-collapse nav-collapse">
-           {% block menu %}
-          {% set toctree = toctree(maxdepth=2, collapse=true, includehidden=True) %}
+    <div class="hidden-xs col-sm-3 col-md-2 sidebar">
+      <div class="toc-menu">
+        {% block menu %}
+          {% set toctree = toctree(maxdepth=4, collapse=true, includehidden=True) %}
           {% if toctree %}
               {{ toctree }}
           {% else %}
@@ -45,7 +46,7 @@
     </div>
 
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-      <div class="{{ bs_span_prefix }}{{ bs_content_width }}">
+      <div class="col-md-12">
       {% include "breadcrumbs.html" %}
         {% block body %}{% endblock %}
       </div>
@@ -97,4 +98,11 @@
 </script>
 <noscript><p><img src="//www.catalyst-analytics.nz/piwik.php?idsite=81" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
+
+<script type="text/javascript">
+    jQuery(function () {
+        SphinxRtdTheme.Navigation.enableSticky();
+    });
+</script>
+
 {%- endblock %}
