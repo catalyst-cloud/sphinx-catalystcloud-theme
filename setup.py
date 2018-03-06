@@ -6,7 +6,7 @@ from sphinx_catalystcloud_theme import __version__
 setup(
     name='sphinx_catalystcloud_theme',
     version=__version__,
-    url='https://github.com/catalyst-cloud/sphinx_catalystcloud_theme/',
+    url='https://github.com/catalyst-cloud/sphinx-catalystcloud-theme',
     license='MIT',
     author='Amelia Cordwell',
     author_email='ameliacordwell@catalyst.net.nz',
