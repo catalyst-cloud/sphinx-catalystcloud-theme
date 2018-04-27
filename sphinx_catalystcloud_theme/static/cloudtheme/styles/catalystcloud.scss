@@ -4,12 +4,15 @@
 
 body {
   font-family: 'latoregular', sans-serif;
+  font-size: $content-font-size;
 }
 h1, h2 {
   font-family: 'latoblack';
+  margin-top: $large-heading-top;
 }
 h3 {
   font-family: 'latosemibold';
+  margin-top: $small-heading-top;
 }
 .main {
   padding-top: 20px;

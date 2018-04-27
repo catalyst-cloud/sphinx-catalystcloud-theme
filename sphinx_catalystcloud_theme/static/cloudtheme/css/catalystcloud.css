@@ -1846,13 +1846,16 @@ b, strong {
   font-weight: normal; }
 
 body {
-  font-family: 'latoregular', sans-serif; }
+  font-family: 'latoregular', sans-serif;
+  font-size: 16px; }
 
 h1, h2 {
-  font-family: 'latoblack'; }
+  font-family: 'latoblack';
+  margin-top: 40px; }
 
 h3 {
-  font-family: 'latosemibold'; }
+  font-family: 'latosemibold';
+  margin-top: 30px; }
 
 .main {
   padding-top: 20px; }

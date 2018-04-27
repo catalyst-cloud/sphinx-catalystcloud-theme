@@ -1,13 +1,9 @@
 $bootstrap-sass-asset-helper: false !default;
 //
-// Variables
+// Catalyst Cloud variables
 // --------------------------------------------------
 
-
-//== Colors
-//
-
-//## Catalyst Cloud Colours
+//## Colours
 
 $teal: #1D414E;
 $drk-green: #7D9C35;
@@ -15,6 +11,27 @@ $lt-green: #B2D234;
 $blue: #34ABE1;
 $white: #FFFFFF;
 $image-background: #c8d1d3;
+
+
+//## Typography
+
+$content-font-size: 16px;
+
+
+//## Spacing
+
+$large-heading-top: 40px;
+$small-heading-top: 30px;
+
+
+
+
+//
+// Variables
+// --------------------------------------------------
+
+//== Colors
+//
 
 
 //## Gray and brand colors for use across Bootstrap.
