@@ -6,7 +6,10 @@ body {
   font-family: 'latoregular', sans-serif;
   font-size: $content-font-size;
 }
-h1, h2 {
+h1 {
+  font-family: 'latoblack';
+}
+h2 {
   font-family: 'latoblack';
   margin-top: $large-heading-top;
 }

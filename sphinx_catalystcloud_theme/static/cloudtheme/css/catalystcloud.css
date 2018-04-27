@@ -1849,7 +1849,10 @@ body {
   font-family: 'latoregular', sans-serif;
   font-size: 16px; }
 
-h1, h2 {
+h1 {
+  font-family: 'latoblack'; }
+
+h2 {
   font-family: 'latoblack';
   margin-top: 60px; }
 
