@@ -2008,7 +2008,9 @@ table {
   max-width: 100%;
   border-width: 2px;
   border-style: solid;
-  border-color: #c8d1d3; }
+  border-color: #c8d1d3;
+  border-radius: 2px;
+  background-color: #c8d1d3; }
 
 /* Footer */
 .footer {

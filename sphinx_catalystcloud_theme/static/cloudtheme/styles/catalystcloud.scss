@@ -2,15 +2,14 @@
 @import "font-awesome";
 @import "lato";
 
-
 body {
   font-family: 'latoregular', sans-serif;
 }
 h1, h2 {
-  font-family: 'latoblack'; 
+  font-family: 'latoblack';
 }
 h3 {
-  font-family: 'latosemibold'; 
+  font-family: 'latosemibold';
 }
 .main {
   padding-top: 20px;
@@ -116,7 +115,7 @@ div.sidebar {
         font-family: "latosemibold";
       }
     }
-    
+
     ul {
       padding: 0 0 10px;
       @media (max-width:767px){
@@ -214,7 +213,7 @@ table {
     }
   }
   td {
-    
+
   }
 }
 .section {
@@ -229,7 +228,9 @@ table {
   max-width: 100%;
   border-width: 2px;
   border-style: solid;
-  border-color: #c8d1d3;
+  border-color: $image-background;
+  border-radius: 2px;
+  background-color: $image-background;
 }
 
 /* Footer */
