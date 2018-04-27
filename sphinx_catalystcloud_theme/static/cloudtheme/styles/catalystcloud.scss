@@ -179,6 +179,13 @@ div.sidebar {
 }
 
 
+/* Code blocks */
+.highlight pre {
+  margin-top: $code-block-margin;
+  margin-bottom: $code-block-margin + 10px;
+}
+
+
 /*header link icon */
 a.headerlink  {
   color: #CCCCCC;

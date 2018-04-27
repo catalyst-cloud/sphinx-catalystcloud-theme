@@ -1979,6 +1979,11 @@ div.sidebar {
   .breadcrumb .breadcrumbs-aside:before {
     display: none; }
 
+/* Code blocks */
+.highlight pre {
+  margin-top: 30px;
+  margin-bottom: 40px; }
+
 /*header link icon */
 a.headerlink {
   color: #CCCCCC;
