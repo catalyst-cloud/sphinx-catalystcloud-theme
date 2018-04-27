@@ -20,11 +20,11 @@ sphinx_bootstrap_theme.
 
 ### Editing
 
-To change the styles of the theme, edit the SCSS in `/sphinx_catalystcloud_theme/static/cloudtheme/styles`.
+To change the styles of the theme, edit the [SCSS](https://sass-lang.com/) in: `/sphinx_catalystcloud_theme/static/cloudtheme/styles`.
 
 ### Compile
 
-Before pushing to the repo, compile the scss to css with
+Before pushing to the repo, compile the scss to css with:
 ```
 cd sphinx-catalystcloud-theme
 sass --watch sphinx_catalystcloud_theme/static/cloudtheme/styles:sphinx_catalystcloud_theme/static/cloudtheme/css
