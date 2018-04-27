@@ -1982,7 +1982,7 @@ div.sidebar {
 /* Code blocks */
 .highlight pre {
   margin-top: 30px;
-  margin-bottom: 40px; }
+  margin-bottom: 30px; }
 
 /*header link icon */
 a.headerlink {
@@ -2038,7 +2038,7 @@ pre {
 /* Admonition */
 .admonition {
   margin-top: 30px;
-  margin-bottom: 40px; }
+  margin-bottom: 30px; }
 
 .fa,
 .rst-content .admonition-title,
