@@ -261,6 +261,12 @@ pre {
   word-wrap: normal;
 }
 
+/* Admonition */
+.admonition {
+  margin-top: $admonition-block-margin;
+  margin-bottom: $admonition-block-margin + 10px;
+}
+
 .fa,
 .rst-content .admonition-title,
 .rst-content h1 .headerlink,
