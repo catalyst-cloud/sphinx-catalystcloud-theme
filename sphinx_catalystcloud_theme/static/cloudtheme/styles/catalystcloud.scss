@@ -23,7 +23,7 @@ h3 {
 }
 h4 {
   font-family: 'latoregular';
-  font-size: 20px;
+  font-size: $h4-font-size;
   margin-top: $small-heading-top;
 }
 ol.simple, ul.simple {
@@ -233,8 +233,8 @@ a.headerlink  {
   }
 }
 
-/* Tables */
 
+/* Tables */
 table {
   border: 1px solid #DDDDDD;
   word-break: break-word;
@@ -266,8 +266,8 @@ table {
   }
 }
 
-/* Responsive images */
 
+/* Responsive images */
 .section img {
   max-width: 100%;
   border-width: 2px;
@@ -279,10 +279,12 @@ table {
   margin-bottom: $image-margin;
 }
 
+
 /* Footer */
 .footer {
   margin-top: 30px;
 }
+
 
 /* Alerts */
 .alert-info {
@@ -293,6 +295,7 @@ pre {
   word-break: normal;
   word-wrap: normal;
 }
+
 
 /* Admonition */
 .admonition {
