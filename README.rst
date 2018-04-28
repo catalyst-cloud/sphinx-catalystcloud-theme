@@ -27,7 +27,7 @@ Contributing
 Editing
 -------
 
-To change the styles of the theme, edit the `SCSS <https://sass-lang.com/>` in: /sphinx_catalystcloud_theme/static/cloudtheme/styles.
+To change the styles of the theme, edit the `SCSS <https://sass-lang.com/>`_ in: /sphinx_catalystcloud_theme/static/cloudtheme/styles.
 
 Compile
 -------
