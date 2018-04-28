@@ -1867,6 +1867,10 @@ h3 {
   border-width: 0;
   background-color: #1D414E; }
 
+@media (min-width: 768px) {
+  .navbar-right {
+    margin-right: 0px; } }
+
 .navbar-default {
   background-image: none; }
   .navbar-default .navbar-toggle {

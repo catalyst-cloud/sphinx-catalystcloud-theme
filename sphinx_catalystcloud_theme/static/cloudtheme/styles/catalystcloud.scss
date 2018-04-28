@@ -25,6 +25,12 @@ h3 {
   background-color: $teal;
 }
 
+.navbar-right {
+  @media (min-width: 768px) {
+    margin-right: 0px;
+  }
+}
+
 .navbar-default {
   background-image: none;
 
