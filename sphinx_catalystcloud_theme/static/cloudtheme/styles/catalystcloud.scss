@@ -16,16 +16,10 @@ h1 {
 h2 {
   font-family: 'latoblack';
   margin-top: $large-heading-top;
-  &:first-child {
-    margin-top: 20px;
-  }
 }
 h3 {
   font-family: 'latosemibold';
   margin-top: $small-heading-top;
-  &:first-child {
-    margin-top: 20px;
-  }
 }
 h4 {
   font-family: 'latoregular';
