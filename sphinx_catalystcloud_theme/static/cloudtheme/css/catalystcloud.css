@@ -1995,6 +1995,10 @@ div.sidebar {
   .breadcrumb .breadcrumbs-aside:before {
     display: none; }
 
+/* Additional section styling */
+.section:first-child {
+  margin-top: 20px; }
+
 /* Youtube video */
 iframe {
   margin-top: 20px;
@@ -2060,8 +2064,8 @@ pre {
 
 /* Admonition */
 .admonition {
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-top: 16px;
+  margin-bottom: 16px; }
   .admonition p {
     margin: 0; }
 

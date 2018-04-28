@@ -196,6 +196,11 @@ div.sidebar {
   }
 }
 
+/* Additional section styling */
+.section:first-child {
+  margin-top: 20px;
+}
+
 
 /* Youtube video */
 iframe {
