@@ -1864,6 +1864,10 @@ h3 {
   font-family: 'latosemibold';
   margin-top: 30px; }
 
+h4 {
+  font-family: 'latoregular';
+  margin-top: 30px; }
+
 ol.simple, ul.simple {
   margin-top: 16px;
   margin-bottom: 16px; }
