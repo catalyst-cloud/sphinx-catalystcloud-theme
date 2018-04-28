@@ -30,6 +30,11 @@ ol.simple, ul.simple {
   margin-top: $content-paragraph-margin;
   margin-bottom: $content-paragraph-margin;
 }
+ol li p, ul li p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .main {
   padding-top: 20px;
 }
