@@ -1859,10 +1859,14 @@ h1 {
 h2 {
   font-family: 'latoblack';
   margin-top: 60px; }
+  h2:first-child {
+    margin-top: 20px; }
 
 h3 {
   font-family: 'latosemibold';
   margin-top: 30px; }
+  h3:first-child {
+    margin-top: 20px; }
 
 h4 {
   font-family: 'latoregular';
@@ -1994,10 +1998,6 @@ div.sidebar {
       display: none; } }
   .breadcrumb .breadcrumbs-aside:before {
     display: none; }
-
-/* Additional section styling */
-.section:first-child {
-  margin-top: 20px; }
 
 /* Youtube video */
 iframe {
