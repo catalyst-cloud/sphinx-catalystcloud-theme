@@ -1871,9 +1871,6 @@ h4 {
 ol.simple, ul.simple {
   margin-top: 16px;
   margin-bottom: 16px; }
-  ol.simple p, ul.simple p {
-    margin-top: 0px;
-    margin-bottom: 0px; }
 
 .main {
   padding-top: 20px; }
