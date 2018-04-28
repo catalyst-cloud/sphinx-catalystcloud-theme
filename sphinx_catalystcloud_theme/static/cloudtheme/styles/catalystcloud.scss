@@ -6,6 +6,9 @@ body {
   font-family: 'latoregular', sans-serif;
   font-size: $content-font-size;
 }
+p {
+  margin-bottom: $content-paragraph-margin;
+}
 h1 {
   font-family: 'latoblack';
 }
