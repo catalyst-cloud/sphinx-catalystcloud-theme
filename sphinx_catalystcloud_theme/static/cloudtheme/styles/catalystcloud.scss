@@ -185,6 +185,13 @@ div.sidebar {
 }
 
 
+/* Youtube video */
+iframe {
+  margin-top: $youtube-margin;
+  margin-bottom: $youtube-margin;
+}
+
+
 /* Code blocks */
 .highlight pre {
   margin-top: $code-block-margin;

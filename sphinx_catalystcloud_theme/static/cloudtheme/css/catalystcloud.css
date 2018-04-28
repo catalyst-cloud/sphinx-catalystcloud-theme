@@ -1983,10 +1983,15 @@ div.sidebar {
   .breadcrumb .breadcrumbs-aside:before {
     display: none; }
 
+/* Youtube video */
+iframe {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
 /* Code blocks */
 .highlight pre {
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 /*header link icon */
 a.headerlink {
