@@ -1862,11 +1862,12 @@ h2 {
 
 h3 {
   font-family: 'latosemibold';
-  margin-top: 30px; }
+  margin-top: 40px; }
 
 h4 {
   font-family: 'latoregular';
-  margin-top: 30px; }
+  font-size: 20px;
+  margin-top: 40px; }
 
 ol.simple, ul.simple {
   margin-top: 16px;
@@ -2002,8 +2003,8 @@ iframe {
 
 /* Code blocks */
 .highlight pre {
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-top: 16px;
+  margin-bottom: 16px; }
 
 /*header link icon */
 a.headerlink {
