@@ -2038,7 +2038,9 @@ table {
   border-style: solid;
   border-color: #c8d1d3;
   border-radius: 3px;
-  background-color: #c8d1d3; }
+  background-color: #c8d1d3;
+  margin-top: 16px;
+  margin-bottom: 16px; }
 
 /* Footer */
 .footer {
