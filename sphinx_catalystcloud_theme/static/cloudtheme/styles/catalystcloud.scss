@@ -7,7 +7,7 @@ body {
   font-size: $content-font-size;
 }
 p {
-  margin-top: $content-paragraph-margin;
+  margin-top: 0px;
   margin-bottom: $content-paragraph-margin;
 }
 h1 {
@@ -292,6 +292,10 @@ pre {
 .admonition {
   margin-top: $admonition-block-margin;
   margin-bottom: $admonition-block-margin;
+
+  p {
+    margin: 0;
+  }
 }
 
 .fa,

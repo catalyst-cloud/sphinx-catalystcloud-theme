@@ -1850,7 +1850,7 @@ body {
   font-size: 16px; }
 
 p {
-  margin-top: 16px;
+  margin-top: 0px;
   margin-bottom: 16px; }
 
 h1 {
@@ -2062,6 +2062,8 @@ pre {
 .admonition {
   margin-top: 20px;
   margin-bottom: 20px; }
+  .admonition p {
+    margin: 0; }
 
 .fa,
 .rst-content .admonition-title,
