@@ -7,6 +7,7 @@ body {
   font-size: $content-font-size;
 }
 p {
+  margin-top: $content-paragraph-margin;
   margin-bottom: $content-paragraph-margin;
 }
 h1 {
@@ -19,6 +20,10 @@ h2 {
 h3 {
   font-family: 'latosemibold';
   margin-top: $small-heading-top;
+}
+ol.simple, ul.simple {
+  margin-top: $content-paragraph-margin;
+  margin-bottom: $content-paragraph-margin;
 }
 .main {
   padding-top: 20px;
