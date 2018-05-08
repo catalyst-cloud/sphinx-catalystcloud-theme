@@ -2016,6 +2016,9 @@ div.sidebar {
           .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal:focus,
           .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal:focus {
             background-color: #E2E2E2; } }
+    .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 ul,
+    .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 ul {
+      display: none; }
 
 /* Breadcrumbs */
 .breadcrumb li:nth-child(2):before {
