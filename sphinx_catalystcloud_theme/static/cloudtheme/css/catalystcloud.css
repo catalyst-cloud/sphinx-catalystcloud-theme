@@ -1987,12 +1987,12 @@ div.sidebar {
         .sidebar .toctree-l1 ul .toctree-l2 a.reference.internal:focus,
         .mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal:focus {
           background-color: #E2E2E2; } }
-    .sidebar .toctree-l1 ul .toctree-l2 ul,
-    .mobile-nav .toctree-l1 ul .toctree-l2 ul {
+    .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a,
+    .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a {
       padding: 5px 5px 5px 30px; }
       @media (max-width: 767px) {
-        .sidebar .toctree-l1 ul .toctree-l2 ul,
-        .mobile-nav .toctree-l1 ul .toctree-l2 ul {
+        .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a,
+        .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a {
           padding: 0; } }
       .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal,
       .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal {

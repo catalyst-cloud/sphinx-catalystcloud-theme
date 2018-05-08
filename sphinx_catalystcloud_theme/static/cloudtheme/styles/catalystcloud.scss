@@ -180,14 +180,16 @@ div.sidebar {
 
         ul {
 
-          padding: 5px 5px 5px 30px;
-          @media (max-width:767px){
-            padding: 0;
-          }
-
           .toctree-l3 {
 
             a {
+
+              padding: 5px 5px 5px 30px;
+              @media (max-width:767px){
+                padding: 0;
+              }
+
+
               &.reference.internal {
                 padding: 5px 5px 5px 30px;
                 color: $darker-link-color;
