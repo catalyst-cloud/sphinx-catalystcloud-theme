@@ -149,8 +149,8 @@ div.sidebar {
     ul {
       padding: 0 0 10px;
       @media (max-width:767px){
-          padding: 0;
-        }
+        padding: 0;
+      }
 
       .toctree-l2 {
 
@@ -177,6 +177,44 @@ div.sidebar {
             }
           }
         }
+
+        ul {
+
+          padding: 5px 5px 5px 30px;
+          @media (max-width:767px){
+            padding: 0;
+          }
+
+          .toctree-l3 {
+
+            a {
+              &.reference.internal {
+                padding: 5px 5px 5px 30px;
+                color: $darker-link-color;
+                font-family: "latoregular";
+                font-size: 12px;
+                @media (max-width:767px){
+                 border-top: 1px dotted #D8D8D8;
+                }
+
+                &:hover {
+                  color: darken($link-color, 30%);
+                  text-decoration: none;
+                  @media (max-width:767px){
+                   background-color: #E2E2E2;
+                  }
+                }
+                &:focus {
+                  @media (max-width:767px){
+                   background-color: #E2E2E2;
+                  }
+                }
+              }
+            }
+          }
+
+        }
+
       }
     }
   }
