@@ -1878,12 +1878,10 @@ ol li p, ul li p {
   margin-bottom: 0px; }
 
 .main {
-  padding-top: 20px;
-  background-color: #dfe4e5; }
+  padding-top: 20px; }
 
 .content-div {
   max-width: 800px;
-  background-color: white;
   padding-left: 50px;
   padding-right: 50px; }
 
