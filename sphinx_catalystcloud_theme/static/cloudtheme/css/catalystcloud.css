@@ -1880,6 +1880,11 @@ ol li p, ul li p {
 .main {
   padding-top: 20px; }
 
+.content-div {
+  max-width: 800px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
 .navbar-fixed-top {
   border-width: 0;
   background-color: #1D414E; }
