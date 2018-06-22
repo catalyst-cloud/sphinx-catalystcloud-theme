@@ -1846,52 +1846,20 @@ b, strong {
   font-weight: normal; }
 
 body {
-  font-family: 'latoregular', sans-serif;
-  font-size: 16px; }
+  font-family: 'latoregular', sans-serif; }
 
-p {
-  margin-top: 0px;
-  margin-bottom: 16px; }
-
-h1 {
+h1, h2 {
   font-family: 'latoblack'; }
 
-h2 {
-  font-family: 'latoblack';
-  margin-top: 60px; }
-
 h3 {
-  font-family: 'latosemibold';
-  margin-top: 40px; }
-
-h4 {
-  font-family: 'latoregular';
-  font-size: 20px;
-  margin-top: 40px; }
-
-ol.simple, ul.simple {
-  margin-top: 16px;
-  margin-bottom: 16px; }
-
-ol li p, ul li p {
-  margin-top: 0px;
-  margin-bottom: 0px; }
+  font-family: 'latosemibold'; }
 
 .main {
   padding-top: 20px; }
 
-.content-div {
-  max-width: 800px;
-  padding-left: 50px;
-  padding-right: 50px; }
-
 .navbar-fixed-top {
   border-width: 0;
   background-color: #1D414E; }
-
-@media (min-width: 768px) {
-  .navbar-right {
-    margin-right: 0px; } }
 
 .navbar-default {
   background-image: none; }
@@ -1940,90 +1908,88 @@ div.sidebar {
 .sidebar ul,
 .mobile-nav ul {
   padding: 0; }
+
 .sidebar .toctree-l1,
 .mobile-nav .toctree-l1 {
-  border-bottom: 1px solid #cbd6d8; }
-  .sidebar .toctree-l1.current,
-  .mobile-nav .toctree-l1.current {
-    background-color: #efefef; }
-  .sidebar .toctree-l1 a,
-  .mobile-nav .toctree-l1 a {
-    font-size: 14px;
-    color: #1c7a9b; }
-    .sidebar .toctree-l1 a:hover,
-    .mobile-nav .toctree-l1 a:hover {
-      color: #051419;
-      text-decoration: none; }
-      @media (max-width: 767px) {
-        .sidebar .toctree-l1 a:hover,
-        .mobile-nav .toctree-l1 a:hover {
-          background-color: #E2E2E2; } }
-    .sidebar .toctree-l1 a.reference.internal,
-    .mobile-nav .toctree-l1 a.reference.internal {
-      display: block;
-      padding: 8px 10px;
-      color: #1D414E;
-      font-family: "latosemibold"; }
+  border-bottom: 1px solid #cbd6d8;
+}
+
+.sidebar .toctree-l1.current,
+.mobile-nav .toctree-l1.current {
+  background-color: #efefef;
+}
+
+.sidebar .toctree-l1 a,
+.mobile-nav .toctree-l1 a {
+  font-size: 14px;
+  color: #1c7a9b;
+}
+
+.sidebar .toctree-l1 a:hover,
+.mobile-nav .toctree-l1 a:hover {
+  color: #051419;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .sidebar .toctree-l1 a:hover,
+  .mobile-nav .toctree-l1 a:hover {
+    background-color: #E2E2E2; }
+}
+.sidebar .toctree-l1 a.reference.internal,
+.mobile-nav .toctree-l1 a.reference.internal {
+  display: block;
+  padding: 8px 10px;
+  color: #1D414E;
+  font-family: "latosemibold";
+}
+
+.sidebar .toctree-l1 ul,
+.mobile-nav .toctree-l1 ul {
+  padding: 0 0 10px;
+}
+@media (max-width: 767px) {
   .sidebar .toctree-l1 ul,
   .mobile-nav .toctree-l1 ul {
-    padding: 0 0 10px; }
-    @media (max-width: 767px) {
-      .sidebar .toctree-l1 ul,
-      .mobile-nav .toctree-l1 ul {
-        padding: 0; } }
-    .sidebar .toctree-l1 ul .toctree-l2 a.reference.internal,
-    .mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal {
-      padding: 5px 5px 5px 20px;
-      color: #1c7a9b;
-      font-family: "latoregular"; }
-      @media (max-width: 767px) {
-        .sidebar .toctree-l1 ul .toctree-l2 a.reference.internal,
-        .mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal {
-          border-top: 1px dotted #D8D8D8; } }
-      .sidebar .toctree-l1 ul .toctree-l2 a.reference.internal:hover,
-      .mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal:hover {
-        color: #051419;
-        text-decoration: none; }
-        @media (max-width: 767px) {
-          .sidebar .toctree-l1 ul .toctree-l2 a.reference.internal:hover,
-          .mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal:hover {
-            background-color: #E2E2E2; } }
-      @media (max-width: 767px) {
-        .sidebar .toctree-l1 ul .toctree-l2 a.reference.internal:focus,
-        .mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal:focus {
-          background-color: #E2E2E2; } }
-    .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a,
-    .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a {
-      padding: 5px 5px 5px 30px; }
-      @media (max-width: 767px) {
-        .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a,
-        .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a {
-          padding: 0; } }
-      .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal,
-      .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal {
-        padding: 5px 5px 5px 30px;
-        color: #093d4f;
-        font-family: "latoregular";
-        font-size: 12px; }
-        @media (max-width: 767px) {
-          .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal,
-          .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal {
-            border-top: 1px dotted #D8D8D8; } }
-        .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal:hover,
-        .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal:hover {
-          color: #051419;
-          text-decoration: none; }
-          @media (max-width: 767px) {
-            .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal:hover,
-            .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal:hover {
-              background-color: #E2E2E2; } }
-        @media (max-width: 767px) {
-          .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal:focus,
-          .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 a.reference.internal:focus {
-            background-color: #E2E2E2; } }
-    .sidebar .toctree-l1 ul .toctree-l2 ul .toctree-l3 ul,
-    .mobile-nav .toctree-l1 ul .toctree-l2 ul .toctree-l3 ul {
-      display: none; }
+    padding: 0; }
+}
+
+.sidebar .toctree-l1 ul .toctree-l2 a.reference.internal,
+.mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal {
+  padding: 5px 5px 5px 20px;
+  color: #1c7a9b;
+  font-family: "latoregular";
+}
+
+.sidebar .toctree-l1 ul .toctree-l3 a.reference.internal,
+.mobile-nav .toctree-l1 ul .toctree-l3 a.reference.internal {
+  padding: 5px 5px 5px 30px;
+  color: #093d4f;
+  font-family: "latoregular";
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .sidebar .toctree-l1 ul .toctree-l2 a.reference.internal,
+  .mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal {
+    border-top: 1px dotted #D8D8D8; }
+}
+
+.sidebar .toctree-l1 ul .toctree-l2 a.reference.internal:hover,
+.mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal:hover {
+  color: #051419;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .sidebar .toctree-l1 ul .toctree-l2 a.reference.internal:hover,
+  .mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal:hover {
+    background-color: #E2E2E2; }
+}
+@media (max-width: 767px) {
+  .sidebar .toctree-l1 ul .toctree-l2 a.reference.internal:focus,
+  .mobile-nav .toctree-l1 ul .toctree-l2 a.reference.internal:focus {
+    background-color: #E2E2E2; }
+}
 
 /* Breadcrumbs */
 .breadcrumb li:nth-child(2):before {
@@ -2036,16 +2002,6 @@ div.sidebar {
       display: none; } }
   .breadcrumb .breadcrumbs-aside:before {
     display: none; }
-
-/* Youtube video */
-iframe {
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-/* Code blocks */
-.highlight pre {
-  margin-top: 16px;
-  margin-bottom: 16px; }
 
 /*header link icon */
 a.headerlink {
@@ -2079,14 +2035,7 @@ table {
 
 /* Responsive images */
 .section img {
-  max-width: 100%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #c8d1d3;
-  border-radius: 3px;
-  background-color: #c8d1d3;
-  margin-top: 16px;
-  margin-bottom: 16px; }
+  max-width: 100%; }
 
 /* Footer */
 .footer {
@@ -2099,13 +2048,6 @@ table {
 pre {
   word-break: normal;
   word-wrap: normal; }
-
-/* Admonition */
-.admonition {
-  margin-top: 16px;
-  margin-bottom: 16px; }
-  .admonition p {
-    margin: 0; }
 
 .fa,
 .rst-content .admonition-title,
@@ -2137,4 +2079,13 @@ pre {
   font-family: FontAwesome;
   display: inline-block; }
 
-/*# sourceMappingURL=catalystcloud.css.map */
+.navbar-right{
+    margin-right: 0;
+}
+
+.toc-menu li.toctree-l1.current li.toctree-l2>ul,.toc-menu li.toctree-l2.current li.toctree-l3>ul{
+    display:none
+}
+.toc-menu li.toctree-l1.current li.toctree-l2.current>ul,.toc-menu li.toctree-l2.current li.toctree-l3.current>ul{
+    display:block
+}

@@ -2,56 +2,22 @@
 @import "font-awesome";
 @import "lato";
 
+
 body {
   font-family: 'latoregular', sans-serif;
-  font-size: $content-font-size;
 }
-p {
-  margin-top: 0px;
-  margin-bottom: $content-paragraph-margin;
-}
-h1 {
-  font-family: 'latoblack';
-}
-h2 {
-  font-family: 'latoblack';
-  margin-top: $large-heading-top;
+h1, h2 {
+  font-family: 'latoblack'; 
 }
 h3 {
-  font-family: 'latosemibold';
-  margin-top: $small-heading-top;
+  font-family: 'latosemibold'; 
 }
-h4 {
-  font-family: 'latoregular';
-  font-size: $h4-font-size;
-  margin-top: $small-heading-top;
-}
-ol.simple, ul.simple {
-  margin-top: $content-paragraph-margin;
-  margin-bottom: $content-paragraph-margin;
-}
-ol li p, ul li p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .main {
   padding-top: 20px;
-}
-.content-div {
-  max-width: 800px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 .navbar-fixed-top {
   border-width: 0;
   background-color: $teal;
-}
-
-.navbar-right {
-  @media (min-width: 768px) {
-    margin-right: 0px;
-  }
 }
 
 .navbar-default {
@@ -150,12 +116,12 @@ div.sidebar {
         font-family: "latosemibold";
       }
     }
-
+    
     ul {
       padding: 0 0 10px;
       @media (max-width:767px){
-        padding: 0;
-      }
+          padding: 0;
+        }
 
       .toctree-l2 {
 
@@ -182,53 +148,6 @@ div.sidebar {
             }
           }
         }
-
-        ul {
-
-          .toctree-l3 {
-
-            a {
-
-              padding: 5px 5px 5px 30px;
-              @media (max-width:767px){
-                padding: 0;
-              }
-
-
-              &.reference.internal {
-                padding: 5px 5px 5px 30px;
-                color: $darker-link-color;
-                font-family: "latoregular";
-                font-size: 12px;
-                @media (max-width:767px){
-                 border-top: 1px dotted #D8D8D8;
-                }
-
-                &:hover {
-                  color: darken($link-color, 30%);
-                  text-decoration: none;
-                  @media (max-width:767px){
-                   background-color: #E2E2E2;
-                  }
-                }
-                &:focus {
-                  @media (max-width:767px){
-                   background-color: #E2E2E2;
-                  }
-                }
-              }
-            }
-
-            ul {
-
-              display: none;
-
-            }
-
-          }
-
-        }
-
       }
     }
   }
@@ -255,20 +174,6 @@ div.sidebar {
 }
 
 
-/* Youtube video */
-iframe {
-  margin-top: $youtube-margin;
-  margin-bottom: $youtube-margin;
-}
-
-
-/* Code blocks */
-.highlight pre {
-  margin-top: $code-block-margin;
-  margin-bottom: $code-block-margin;
-}
-
-
 /*header link icon */
 a.headerlink  {
   color: #CCCCCC;
@@ -285,8 +190,8 @@ a.headerlink  {
   }
 }
 
-
 /* Tables */
+
 table {
   border: 1px solid #DDDDDD;
   word-break: break-word;
@@ -309,7 +214,7 @@ table {
     }
   }
   td {
-
+    
   }
 }
 .section {
@@ -318,25 +223,16 @@ table {
   }
 }
 
-
 /* Responsive images */
+
 .section img {
   max-width: 100%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: $image-background;
-  border-radius: 3px;
-  background-color: $image-background;
-  margin-top: $image-margin;
-  margin-bottom: $image-margin;
 }
-
 
 /* Footer */
 .footer {
   margin-top: 30px;
 }
-
 
 /* Alerts */
 .alert-info {
@@ -346,17 +242,6 @@ table {
 pre {
   word-break: normal;
   word-wrap: normal;
-}
-
-
-/* Admonition */
-.admonition {
-  margin-top: $admonition-block-margin;
-  margin-bottom: $admonition-block-margin;
-
-  p {
-    margin: 0;
-  }
 }
 
 .fa,
