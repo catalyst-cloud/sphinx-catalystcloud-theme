@@ -2132,4 +2132,14 @@ pre {
   font-family: FontAwesome;
   display: inline-block; }
 
+/* Tabs */
+/* Reset sphinx tabs so they do not take on bootstrap's .container CSS */
+.sphinx-tabs.container,
+.sphinx-tabs .container {
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; }
+
 /*# sourceMappingURL=catalystcloud.css.map */
