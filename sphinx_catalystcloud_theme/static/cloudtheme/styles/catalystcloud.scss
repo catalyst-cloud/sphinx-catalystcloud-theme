@@ -336,6 +336,7 @@ table {
 /* Alerts */
 .alert-info {
   background-image: none;
+  color: #333
 }
 
 pre {
@@ -396,4 +397,14 @@ pre {
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
+  font-size: $content-font-size;
+  .sphinx-tab {
+    padding: $content-paragraph-margin;
+  }
+}
+
+.sphinx-tab,
+.ui.tabular.menu,
+.sphinx-tabs .sphinx-menu a.active.item {
+    border-color: $nav-tabs-border-color !important; // Important to override other styles
 }
