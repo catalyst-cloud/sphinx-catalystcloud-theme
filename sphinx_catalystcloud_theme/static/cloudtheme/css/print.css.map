@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["../styles/print.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA","file":"print.css"}
+{
+"version": 3,
+"mappings": "AAAA;;2FAE2F",
+"sources": ["../styles/print.scss"],
+"names": [],
+"file": "print.css"
+}

@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["../styles/ie.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;AAAA","file":"ie.css"}
+{
+"version": 3,
+"mappings": "AAAA;;;;kBAIkB",
+"sources": ["../styles/ie.scss"],
+"names": [],
+"file": "ie.css"
+}
